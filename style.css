@@ -102,12 +102,16 @@ body  {
   background-color: var(--navbar-background-color) !important;
 }
 
+
+/* mobile */
 @media only screen and (max-width: 600px) {
   #navbar_desktop {
     display: none;
   }
 }
 
+
+/* desktop */
 @media only screen and (min-width: 600px) {
   .navbar {
     display: none;
