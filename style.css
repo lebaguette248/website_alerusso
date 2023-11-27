@@ -1,0 +1,117 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: var(--text-color);
+}
+
+
+:root {
+  font-size: 20px;
+
+  --background-color: #282828;
+  --h1-color: #ef5857;
+  --text-color: #ffffff;
+  --navbar-background-color: #1f1f1f;
+}
+*::selection {
+  background-color: var(--h1-color);
+  color: var(--background-color);
+}
+
+body  {
+  background-color: var(--background-color) ;
+}
+
+.wrapper  {
+  min-height: 100vh;
+  padding-right: 10%;
+}
+
+.title  {
+  font-size: 3rem;
+  color: var(--h1-color);
+  align-content: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  margin-bottom: 10%;
+}
+
+.tex-style-left {
+  text-align: left;
+}
+
+.li_navbar  {
+  margin-top: 40px;
+}
+
+
+
+.button_navbar  {
+  border: none;
+  padding: 4px;
+  margin-left: 4px;
+  border-radius: 16px;
+  background-color: var(--h1-color);
+  color: var(--navbar-background-color);
+}
+
+.li_navbar a  {
+  color: var(--h1-color);
+  text-decoration: none;
+  font-size: 1.5rem;
+
+}
+
+#img_aboutme  {
+  width: 20%;
+  height: 25%;
+
+  min-height: 600px;
+  min-width: 400px;
+}
+
+#img_logo {
+  width: 20%;
+
+  min-height: 100px;
+  min-width: 100px;
+}
+
+#img_Hobbys_schwimmen {
+  width: 20%;
+
+  min-height: 200px;
+  min-width: 100px;
+
+}
+
+#navbar_desktop {
+  background-color: var(--navbar-background-color);
+  position: fixed;
+  width: 200px;
+  max-width: 15%;
+  height: 100%;
+  right: 0;
+  top: 0;
+}
+.navbar {
+  background-color: var(--navbar-background-color) !important;
+}
+
+@media only screen and (max-width: 600px) {
+  #navbar_desktop {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .navbar {
+    display: none;
+  }
+
+}
