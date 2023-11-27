@@ -1,160 +1,193 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Alessandro Russo</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com"/>
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,1000&display=swap" rel="stylesheet"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,1000&display=swap" rel="stylesheet" />
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-            crossorigin="anonymous"></script>
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-          integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="./style.css"/>
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css" />
 </head>
 
 <body>
-<nav id="navbar_desktop">
-    <div style="padding: 20px">
-        <img src="./BSPIMG.png" id="img_logo">
-    </div>
-    <ul>
-        <li class="li_navbar"><a href="#home">Home</a></li>
-        <li class="li_navbar"><a href="#aboutme">Über Mich</a></li>
-        <li class="li_navbar"><a href="#hobbys">About</a></li>
-        <li class="li_navbar"><a href="#stre-weak">Contact</a></li>
-    </ul>
-    <button class="button_navbar">
-        Download Button
-    </button>
-</nav>
-<nav class="navbar bg-body-tertiary fixed-top">
-    <div class="container-fluid">
-        <a class="navbar-brand" href="#"></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
-                aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+    <nav id="navbar_desktop">
+        <div style="padding: 20px">
+            <img src="./BSPIMG.png" id="img_logo">
+        </div>
+        <ul>
+            <li class="li_navbar"><a href="#home">Home</a></li>
+            <li class="li_navbar"><a href="#aboutme">Über Mich</a></li>
+            <li class="li_navbar"><a href="#hobbys">About</a></li>
+            <li class="li_navbar"><a href="#stre-weak">Contact</a></li>
+        </ul>
+        <button class="button_navbar">
+            Download Button
         </button>
-        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-            <div class="offcanvas-header">
-                <h5 class="offcanvas-title" id="offcanvasNavbarLabel"></h5>
-                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-            </div>
-            <div class="offcanvas-body">
-                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                           aria-expanded="false">
-                            Dropdown
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
-                    </li>
-                </ul>
-                <form class="d-flex mt-3" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
+    </nav>
+    <nav class="navbar bg-body-tertiary fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel"></h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Dropdown
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <form class="d-flex mt-3" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
             </div>
         </div>
-    </div>
-</nav>
+    </nav>
 
-<section class="wrapper" id="main">
+    <section class="wrapper" id="main">
 
-</section>
-<section class="wrapper" id="aboutme">
-    <div class="title">
-        Über Mich
-    </div>
-    <div class="container text-center">
-        <div class="row">
-            <div class="col">
+    </section>
+    <section class="wrapper" id="aboutme">
+        <div class="title">
+            Über Mich
+        </div>
+        <div class="container text-center">
+            <div class="row">
+                <div class="col">
                     <img src="./BSPIMG.png" id="img_aboutme">
+                </div>
+                <div class="col">
+                    <div style="margin-bottom: 20px" class="tex-style-left">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut
+                        labore
+                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+                        ut
+                        aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                        culpa qui officia deserunt mollit anim id est laborum.
+                    </div>
+                    <div class="tex-style-left">
+                        Kontakt:
+                        <ul>
+                            <li>Email:</li>
+                            <li>Telefon:</li>
+                        </ul>
+                    </div>
+                </div>
             </div>
-            <div class="col">
-                <div style="margin-bottom: 20px" class="tex-style-left">
+        </div>
+    </section>
+    <section class="wrapper" id="hobbys">
+        <div class="title">
+            Hobbys
+        </div>
+        <div class="container text-center">
+            <div class="row">
+                <div class="col">
+                    <img src="./BSPIMG.png" id="img_Hobbys_schwimmen">
+                    <img src="BSPIMG.png" class="img-fluid">
+                </div>
+                <div class="col">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore
                     et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
                     aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
                     cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
                     culpa qui officia deserunt mollit anim id est laborum.
                 </div>
-                <div class="tex-style-left">
-                    Kontakt:
-                    <ul>
-                        <li>Email:</li>
-                        <li>Telefon:</li>
-                    </ul>
-                </div>
+
             </div>
         </div>
-    </div>
-</section>
-<section class="wrapper" id="hobbys">
-    <div class="title">
-        Hobbys
-    </div>
-    <div class="container text-center">
-        <div class="row">
-            <div class="col">
-                <img src="./BSPIMG.png" id="img_Hobbys_schwimmen"> 
-                <img src="BSPIMG.png" class="img-fluid">   
+
+
+    </section>
+    <section class="wrapper" id="stärkeundschwäche">
+        <div class="title">
+            Stärken und Schwächen
+        </div>
+        <div class="strengths_and_weakness_box">
+            <!--         <img src="BSPIMG.png" class="strengths_and_weakness_img">
+ --> <img src="BSPIMG.png" class="img-fluid">
+            <div class="strengths_and_weakness_list">
+                <ul>
+                    <li>Stärke</li>
+                    <li>Stärke</li>
+                    <li>Stärke</li>
+                </ul>
+                <ul>
+                    <li>Schwäche</li>
+                    <li>Schwäche</li>
+                    <li>Schwäche</li>
+                </ul>
             </div>
-            <div class="col">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore
-                et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                culpa qui officia deserunt mollit anim id est laborum.
+        </div>
+    </section>
+    <section class="wrapper" id="skills">
+        <div class="title">
+            Skills
+        </div>
+        <div id="skill-bar-wrapper">
+            <div>
+                <h5>Design</h5>
+                <progress value="60" max="100"> 60% </progress>
+
             </div>
+            <div>
+                <h5>SEO</h5>
+                <progress value="30" max="100"> 30% </progress>
+
+                
+            </div>
+            <div>
+                <h5>HTML</h5>
+                <progress value="90" max="100"> 90% </progress>
+            </div>
+            <div>
+                
+                <h5>PHP</h5>
+                <progress value="40" max="100"> 40% </progress>
+               
+            </div>
+
+
+
+
+
+
 
         </div>
-    </div>
-
-
-</section>
-<section class="wrapper" id="stärkeundschwäche">
-    <div class="title">
-        Stärken und Schwächen
-    </div>
-    <div class="strengths_and_weakness_box">
-<!--         <img src="BSPIMG.png" class="strengths_and_weakness_img">
- -->        <img src="BSPIMG.png" class="img-fluid">        
- <div class="strengths_and_weakness_list">
-            <ul>
-                <li>Stärke</li>
-                <li>Stärke</li>
-                <li>Stärke</li>
-            </ul>
-            <ul>
-                <li>Schwäche</li>
-                <li>Schwäche</li>
-                <li>Schwäche</li>
-            </ul>
-        </div>
-    </div>
-</section>
-<section class="wrapper" id="skills">
-    <div class="title">
-        Skills
-    </div>
-</section>
+    </section>
 
 </body>
 
