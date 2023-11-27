@@ -89,12 +89,30 @@ body  {
   height: 600px;
 }
 
+.footer {
+  padding-right: 15%;
+  background-color: var(--navbar-background-color);
+}
+
+.footer_box {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  padding: 5% 3%;
+  border-top: solid 1px var(--text-color);
+}
+
+.footer_info p {
+  margin: 0;
+  text-align: right;
+}
+
 #img_aboutme  {
   width: 20%;
   height: 25%;
 
   min-height: 600px;
-  min-width: 400px;
+  min-width: 350px;
 }
 
 #img_logo {
@@ -132,6 +150,7 @@ body  {
     display: none;
   }
   .wrapper {padding-right: 0;}
+  .footer {padding-right: 0;}
 }
 
 
