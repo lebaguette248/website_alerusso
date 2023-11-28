@@ -148,6 +148,46 @@ body  {
   background-color: var(--navbar-background-color) !important;
 }
 
+#skills {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#skill-bar-wrapper  {
+  background-color: var(--navbar-background-color);
+  
+  width: 80%;
+  height: 30%;
+
+  padding: 30px;
+  border-radius: 1rem;
+}
+
+#skill-bar-wrapper > div > progress {
+  width: 100%;
+  accent-color: var(--h1-color);
+}
+
+#skill-bar-wrapper > div  {
+  margin: 30px;  
+}
+
+
+.flexii {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.offcanvas-header {
+  background-color: var(--navbar-background-color);
+}
+
+.offcanvas-body {
+  background-color: var(--navbar-background-color);
+}
+
 
 /* mobile */
 @media only screen and (max-width: 600px) {
