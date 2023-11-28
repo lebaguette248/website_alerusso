@@ -93,6 +93,59 @@ body  {
   height: 600px;
 }
 
+.hobby-item, .hobby-item-right, .hobby-item-right-special {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 20px;
+}
+
+.hobby-info {
+  max-width: 600px;
+  align-self: flex-end;
+  margin-bottom: 10%;
+  margin-left: 50px;
+  display: flex;
+  flex-direction: column;
+  text-align: end;
+}
+
+.hobby-info-right {
+  max-width: 600px;
+  align-self: flex-end;
+  margin-bottom: 10%;
+  margin-right: 50px;
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+}
+
+.hobby-item h2, .hobby-item-right-special h2 {
+  position: absolute;
+  top: 40%;
+  transform: translate(-50%, -50%);
+}
+
+.left {
+  left: 40%;
+}
+
+.right {
+  right: 30%;
+}
+
+.hobby-item a, .hobby-item-right a, .hobby-item-right-special a {
+  color: var(--text-color);
+  font-size: 1.1em;
+  transition: 1s;
+}
+
+.hobby-item a:hover, .hobby-item-right a:hover, .hobby-item-right-special a:hover {
+  color: var(--h1-color);
+}
+
+
 .line {
   border-left: solid 10px var(--h1-color);
   min-height: 600px;
@@ -115,6 +168,10 @@ body  {
 .footer_info p {
   margin: 0;
   text-align: right;
+}
+
+.hobby-item-right {
+  display: none;
 }
 
 #img_aboutme  {
@@ -210,6 +267,14 @@ body  {
 
 @media only screen and (max-width: 900px) {
   .line {display: none;}
+}
+
+@media only screen and (max-width: 950px) {
+  .hobby-item, .hobby-item-right { flex-direction: column;}
+  .hobby-item h2, .hobby-item-right h2 {position: unset; transform: none; margin-top: 50px;}
+  .hobby-info {text-align: center; margin: 0; align-self: center; margin-bottom: 10%;}
+  .hobby-item-right {display: flex;}
+  .hobby-item-right-special {display: none;}
 }
 
 /* desktop */
