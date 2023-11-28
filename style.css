@@ -26,7 +26,7 @@ body  {
 
 .wrapper  {
   min-height: 100vh;
-  padding-right: 15%;
+  padding-right: 200px;
 }
 
 .title  {
@@ -96,7 +96,7 @@ body  {
 }
 
 .footer {
-  padding-right: 15%;
+  padding-right: 200px;
   background-color: var(--navbar-background-color);
 }
 
@@ -140,7 +140,6 @@ body  {
   background-color: var(--navbar-background-color);
   position: fixed;
   width: 200px;
-  max-width: 15%;
   height: 100%;
   right: 0;
   top: 0;
